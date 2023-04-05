@@ -1,0 +1,7 @@
+#files
+.stylelintrc
+package.json
+package-lock.json
+
+#folders
+/node_modules
