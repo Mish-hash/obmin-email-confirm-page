@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/styles/reset.css" />
-    <link rel="stylesheet" href="assets/styles/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,43 +13,286 @@
 
     <title>Confirmation email</title>
   </head>
-  <body>
-    <div class="main-container">
-      <div class="container">
-        <h1>Підтвердити Вашу адресу електронної пошти</h1>
-        <h2>Вітаємо!</h2>
-        <p class="welcome">
-          Ви зареєструвалися на сайті <a href="#">obminyashka.space!</a> Щоб
-          продовжити реєстрацію, натисніть кнопку "Підтвердити"
+  <body
+    style="
+      width: 100%;
+      height: 100%;
+      background-color: #02383b;
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      text-align: center;
+      font-weight: 400;
+    "
+  >
+    <style type="text/css">
+      a,
+      abbr,
+      acronym,
+      address,
+      applet,
+      article,
+      aside,
+      audio,
+      b,
+      big,
+      blockquote,
+      body,
+      canvas,
+      caption,
+      center,
+      cite,
+      code,
+      dd,
+      del,
+      details,
+      dfn,
+      div,
+      dl,
+      dt,
+      em,
+      embed,
+      fieldset,
+      figcaption,
+      figure,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      hgroup,
+      html,
+      i,
+      iframe,
+      img,
+      ins,
+      kbd,
+      label,
+      legend,
+      li,
+      mark,
+      menu,
+      nav,
+      object,
+      ol,
+      output,
+      p,
+      pre,
+      q,
+      ruby,
+      s,
+      samp,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      summary,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
+      time,
+      tr,
+      tt,
+      u,
+      ul,
+      var,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:before,
+      blockquote:after,
+      q:before,
+      q:after {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+    </style>
+    <div
+      style="
+        margin: 0 auto;
+        width: 735px;
+        height: 788px;
+        background-image: url(./assets/img/main-background.jpg);
+        background-repeat: no-repeat;
+        background-color: white;
+        position: relative;
+      "
+    >
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          color: white;
+        "
+      >
+        <h1
+          style="
+            width: 490px;
+            height: 94px;
+            margin: 87px auto 0 auto;
+            font-size: 40px;
+            line-height: 47px;
+            text-align: center;
+          "
+        >
+          Підтвердити Вашу адресу електронної пошти
+        </h1>
+        <h2
+          style="margin: 23px auto 0 auto; font-size: 22px; line-height: 26px"
+        >
+          Вітаємо!
+        </h2>
+        <p
+          style="
+            width: 414px;
+            height: 84px;
+            margin: 8px auto 0 auto;
+            height: 83px;
+            font-size: 18px;
+            line-height: 21px;
+          "
+        >
+          Ви зареєструвалися на сайті
+          <a style="color: white; cursor: pointer" href="#"
+            >obminyashka.space!</a
+          >
+          Щоб продовжити реєстрацію, натисніть кнопку "Підтвердити"
         </p>
-        <img src="assets/img/cloud-mail.png" class="cloud" alt="cloud-mail" />
-        <p class="info">
+        <img
+          src="assets/img/cloud-mail.png"
+          style="width: 238px; height: 150px"
+          alt="cloud-mail"
+        />
+        <p
+          style="
+            width: 560px;
+            height: 43px;
+            margin-top: 93px;
+            font-size: 18px;
+            line-height: 21px;
+            color: #4a4a4a;
+          "
+        >
           Підтверджений акаунт дає Вам великі можливості бути в курсі нових
           оголошень, спілкуються з іншими учасниками!
         </p>
-        <button class="btn-confirm">ПІДТВЕРДИТИ</button>
-        <p class="ignore">
+        <button
+          style="
+            margin-top: 25px;
+            width: 200px;
+            height: 44px;
+            color: white;
+            background-color: #00c0ff;
+            border: none;
+            border-radius: 63px;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 19px;
+          "
+          onmouseover="this.style.backgroundColor='#00c0ff'"
+          onmouseout="this.style.backgroundColor='#00aae2'"
+        >
+          ПІДТВЕРДИТИ
+        </button>
+        <p
+          style="
+            width: 450px;
+            height: 29px;
+            margin-top: 25px;
+            font-size: 15px;
+            line-height: 18px;
+            color: #767676;
+          "
+        >
           *Якщо у Вас не було наміру реєструватися або Ви випадково отримали цей
           лист - проігноруйте його.
         </p>
       </div>
       <img
-        class="cloud-1"
+        style="
+          width: 54px;
+          height: 34px;
+          position: absolute;
+          top: 53px;
+          right: 39px;
+        "
         alt="cloud-small-1"
         src="assets/img/clud-small-1.png"
       />
       <img
-        class="cloud-2"
+        style="
+          width: 110px;
+          height: 78px;
+          position: absolute;
+          top: 165px;
+          left: 60px;
+        "
         alt="cloud-medium"
         src="assets/img/clud-medium.png"
       />
       <img
-        class="cloud-3"
+        style="
+          width: 51px;
+          height: 37px;
+          position: absolute;
+          top: 344px;
+          right: 65px;
+        "
         alt="cloud-small-2"
         src="assets/img/clud-small-2.png"
       />
       <img
-        class="cloud-4"
+        style="
+          width: 59px;
+          height: 37px;
+          position: absolute;
+          top: 432px;
+          left: 83px;
+        "
         alt="cloud-small-3"
         src="assets/img/clud-small-3.png"
       />
