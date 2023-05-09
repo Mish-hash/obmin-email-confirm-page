@@ -1,0 +1,128 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #02383b;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+}
+
+.main-container {
+  margin: 0 auto;
+  width: 735px;
+  height: 788px;
+  background-image: url("../img/main-background.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.container > h1 {
+  width: 490px;
+  height: 94px;
+  margin: 87px auto 0 auto;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+}
+
+.container > h2 {
+  margin: 23px auto 0 auto;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.welcome {
+  width: 414px;
+  height: 84px;
+  margin: 8px auto 0 auto;
+  height: 83px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.welcome > a {
+  color: white;
+  cursor: pointer;
+}
+
+.cloud {
+  width: 238px;
+  height: 150px;
+}
+
+.info {
+  width: 560px;
+  height: 43px;
+  margin-top: 93px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4a4a4a;
+}
+
+.btn-confirm {
+  margin-top: 25px;
+  width: 200px;
+  height: 44px;
+  background-color: #00c0ff;
+  color: white;
+  border: none;
+  border-radius: 63px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.btn-confirm:hover {
+  background-color: #00aae2;
+}
+
+.ignore {
+  width: 450px;
+  height: 29px;
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #767676;
+}
+
+.cloud-1 {
+  width: 54px;
+  height: 34px;
+  position: absolute;
+  top: 53px;
+  right: 39px;
+}
+
+.cloud-2 {
+  width: 110px;
+  height: 78px;
+  position: absolute;
+  top: 165px;
+  left: 60px;
+}
+
+.cloud-3 {
+  width: 51px;
+  height: 37px;
+  position: absolute;
+  top: 344px;
+  right: 65px;
+}
+
+.cloud-4 {
+  width: 59px;
+  height: 37px;
+  position: absolute;
+  top: 432px;
+  left: 83px;
+}
