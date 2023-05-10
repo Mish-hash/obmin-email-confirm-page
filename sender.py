@@ -1,6 +1,6 @@
 import smtplib, ssl, email, sys
+
 from email import encoders
-from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
@@ -14,7 +14,6 @@ else :
 print("Send email to => " + receiver_email )
 
 sender_email = "m_poluektov@ukr.net"
-# receiver_email = sys.argv[1] || "m_poluektov@ukr.net"
 password = "sBG4lDzYHRcjKuDs"
 
 #Create MIMEMultipart object
@@ -23,14 +22,11 @@ msg["Subject"] = "Obminyashka confirm"
 msg["From"] = sender_email
 msg["To"] = receiver_email
 
-report_file = open('email2.html')
-
+report_file = open('email.html')
 
 #HTML Message Part
 
 html = report_file.read()
-
-
 part = MIMEText(html, "html")
 msg.attach(part)
 
